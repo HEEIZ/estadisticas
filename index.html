@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<div>
+  <img src="https://eventos.aymon.es/wp-content/uploads/2017/09/servicio-madrileno-salud-madrid.jpg" style="float: left">
+
+<h1>Forzosos del Zendal</h1>
+
+<p>Datos públicos de la Comunidad de Madrid extraidos con script de python en desarrollo</p>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="https://c-lake.github.io/csv-charts/js/chartjs-plugin-colorschemes.min.js"></script>
+<!-- Color scheme script from https://nagix.github.io/chartjs-plugin-colorschemes by Akihiko Kusanagi -->
+<script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@0.7.7"></script>
+
+<canvas id="csv-chart-8039"></canvas>
+<script>
+    // Generated with csv-charts at https://c-lake.github.io/csv-charts
+    let ctx8039 = document.getElementById('csv-chart-8039').getContext('2d');
+    let csvChart8039 = new Chart(ctx8039, {"type":"bar","data":{"labels":["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto"],"datasets":[{"label":"Lista Espera Quirurgica","lineTension":0,"fill":false,"data":["96562","90586","90317","91450","90934","88402","91182","96562"]},{"label":"Lista Espera Consultas Externas","lineTension":0,"fill":false,"data":["523763","553601","547450","569952","578539","569595","578629","612428"]},{"label":"Lista Espera Pruebas Diagnosticas","lineTension":0,"fill":false,"data":["163472","170112","163830","173701","173553","165872","165251","177696"]},{"label":"Total","lineTension":0,"fill":false,"data":["783797","814299","801597","835103","843026","823869","835062","886686"]},{"label":"Aumento respecto Enero 2022","lineTension":0,"fill":false,"data":["","30502","17800","51306","59229","40072","51265","102889"]},{"label":"Sanitarios SERMAS","lineTension":0,"fill":false,"data":["82894","83026","82445","76814","76967","77359","77401","77246"]}]},"options":{"title":{"display":true,"fontSize":16,"text":"Lista de Espera y Numero Sanitarios"},"scales":{"xAxes":[{"scaleLabel":{"display":false,"labelString":""},"stacked":false}],"yAxes":[{"scaleLabel":{"display":false,"labelString":""},"stacked":false,"ticks":{"beginAtZero":true}}]},"plugins":{"colorschemes":{"scheme":"tableau.Classic20"},"zoom":{"pan":{"enabled":false,"mode":""},"zoom":{"enabled":false,"mode":""}}}}});
+</script>
+
+
+</body>
+</html>
